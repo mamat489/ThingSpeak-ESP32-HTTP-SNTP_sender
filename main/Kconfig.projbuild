@@ -1,0 +1,18 @@
+menu "esp32-wifi_setup"
+
+
+config WIFI_SSID
+    string "Enter your wifi SSID"
+    default "myssid"
+
+config WIFI_PASS
+    string "Enter your wifi password"
+    default "mypassword"
+
+config API_KEY
+    string "Enter your ThingSpeak API key"
+    default "**APIKEY**"
+
+
+
+endmenu
